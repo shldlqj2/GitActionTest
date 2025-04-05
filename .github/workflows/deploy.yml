@@ -68,3 +68,5 @@ jobs:
           export DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}
           cd /home/ubuntu/GitActionTest
           ./deploy.sh
+
+          
