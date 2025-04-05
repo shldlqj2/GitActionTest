@@ -66,5 +66,5 @@ jobs:
         key: ${{ secrets.SERVER_SSH_KEY }}
         script: |
           export DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}
-          cd /path/to/deployment
+          cd /home/ubuntu/GitActionTest
           ./deploy.sh
